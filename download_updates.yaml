@@ -1,5 +1,4 @@
 # Search and download Windows updates
-#- name: Search and download Windows updates without installing them
-  tasks:
+- name: Search and download Windows updates without installing them
   ansible.windows.win_updates:
     state: downloaded
